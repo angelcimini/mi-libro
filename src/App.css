@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  padding: 6px 2px;
+}
+
+.borderColor {
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:40px;
+  width:100%;
+  background:#999;
+}
+
+.item {
+  border-radius: 20px;
+  margin: 2px 8px;
+  padding: .8em;
+  background-color: rgb(97, 66, 250);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 1px 1px rgb(46, 46, 46);
+  border: 1px solid grey;
+  width: 80%;
+}
+
+li {
+  list-style: none;
+}
+
+.dashboard {
+  padding: 10px;
+}
